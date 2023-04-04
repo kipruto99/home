@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabara</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/imgs/gaa-logo.png" type="image/x-icon">
+
+</head>
+<body class="w-full h-full bg-cover bg-no-repeat bg-blend-saturation" style="background-image:url('imgs/main-bg.png');">
+    <header class="" >
+        <nav class="container flex justify-between items-center">
+            <div class="py-5 font-bold text-3xl">
+               <img src="imgs/gaa-logo.png" alt="" srcset="" class="w-20 h-20">
+            </div>
+            <div>
+                <ul class="hidden lg:flex items-center space-x-6">
+                    <li><a href="#" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+                    <li><a href="#stories" class="hover:text-color-secondary ease-in duration-200 capitalize ">stories and Forktales</a></li>
+                    <li><a href="#history" class="hover:text-color-secondary ease-in duration-200">History</a></li>
+                    
+                </ul>
+            </div>
+
+            <!-- Mobile screen  -->
+            <div id="hamburger" class="lg:hidden cursor-pointer z-50">
+               <span class="text-color-secondary"><i class="fa-solid fa-bars"></i></span>
+            </div>
+
+            <div id="menu" class="hidden bg-color-primary-dark h-[100vh] text-white absolute inset-0">
+                <ul class="h-full  grid place-items-center py-20 gap-10">
+                    <li><a id="hLink" href="#" class="hover:text-color-secondary ease-in duration-200 ">Home</a></li>
+                    <li><a id="hLink" href="#stories" class="hover:text-color-secondary ease-in duration-200 capitalize">stories and forktales</a></li>
+                    <li><a id="hLink" href="#history" class="hover:text-color-secondary ease-in duration-200">History</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="bg-transparent" >
+     
+      <div class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+        <div class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+          <h1 class="text-5xl font-bold leading-none sm:text-6xl">Who are The
+            <span class="dark:text-white text-8xl"> Kabara?</span>
+          </h1>
+          <p class="mt-6 mb-8 text-lg sm:mb-12">Our main ancestor, Mzee Kibara is our Patriarch. We belong to the clan called KIPKOIITIM, and the Elephant - Peliot is our totem.
+            <br class="hidden md:inline lg:hidden">Our ancestors migrated to Nandi from Mt Elgon and Segela Masai.
+          </p>
+          <div class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+            <a rel="noopener noreferrer" href="#" class="px-8 py-3 text-lg font-semibold rounded bg-blue-400 text-gray-900 hover:bg-red-500 hover:text-gray-50 ease-in duration-200">Read More</a>
+          
+          </div>
+        </div>
+        <div class="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+          <img src="imgs/Rectangle 6.png" alt="" class="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 mx-auto">
+        </div>
+      </div>
+    </section>
+    <section class=" mx-auto mt-16">
+        <div id="stories" class="container mx-auto place-content-center px-4 ">
+            <h2 id="gallery" class="text-3xl font-bold mt-10 text-center text-fuchsia-600 animate-pulse 200">Gallery</h2>
+            <div class="flex flex-wrap ml-4">
+              <img src="imgs/Rectangle 10.png" alt="Image 10" class="w-1/4 m-4"/>
+              <img src="imgs/Rectangle 11.png" alt="Image 11" class="w-1/4 m-4"/>
+              <img src="imgs/Rectangle 12.png" alt="Image 12"class="w-1/4 m-4"/>
+              <img src="imgs/Rectangle 13.png" alt="Image 13"class="w-1/4 m-4"/>
+              <img src="imgs/Rectangle 14.png"alt="Image 14" class="w-1/4 m-4" />
+              <img src="imgs/Rectangle 15.png" alt="Image 15" class="w-1/4 m-4"/>
+              <img src="imgs/Rectangle 16.png" alt="Image 16"  class="w-1/4 m-4" />
+            </div>
+            <div class= "justify-center mx-auto text-center capitalize "> 
+              <a class="bg-blue-400 px-8 py-3 rounded-3xl font-semibold" id="view">
+                View whole gallery
+             </a> 
+           </div>
+         </div>
+      </section>
+    <section id="history" class="mt-16 border-8 text-emerald-500 bg-white ">
+      <div class="w-full h-full bg-contain bg-no-repeat bg-center" style="background-image:url('imgs/bg-stats.png');">
+        <div class="container mx-auto">
+          <h2 class="text-4xl font-bold text-center my-10"> Quick Stats and Info</h2>
+          <div class="flex flex-wrap -mx-6">
+            <div class="w-full md:w-1/2 px-6 mb-10">
+              <h3 class="text-2xl font-bold">Quick Stats</h3>
+              <ul class="list-none">
+                <li id="stat1" class="my-5"> Number of adults alive - 2,347</li>
+                <li id="stat2" class="my-5">  Number of children alive - 2,347</li>
+                <li id="stat3" class="my-5">Senge Jelagat is a year older</li>
+                <!-- <li id="stat4" class="my-5">4 houses</li> -->
+              </ul>
+            </div>
+            <div class="w-full md:w-1/2 px-6 mb-10 float-right">
+              <h3 class="text-2xl font-bold">Upcoming Events</h3>
+              <ul class="list-none">
+                <li class="my-5 ">Maiyos graduation</li>
+                <li class="my-5">Tonui’s celebration of life</li>
+                <li class="my-5">Jeptoo’s book launch</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        <footer class=" py-10 rounded-sm">
+          <div class="container mx-auto flex items-center justify-between">
+            <img src="imgs/gaa-logo.png" alt="logo" class="w-20 h-20">
+            <div class="text-white">
+                <ul class=" list-none grid">
+                    <li>&copy; ALL RIGHTS RESERVED</li>
+                    <li>  Kabara Family</li>
+                </ul>
+              </div>
+              <ul class=" list-none block ">
+                  <li class="mr-6  hover:text-color-secondary ease-in-out 200ms "> <a href="#ancestors">Home</a> </li>
+                  <li class="mr-6  hover:text-color-secondary ease-in-out 200ms "><a href="#">Stories and Forktales</a> </li>
+                  <li class="mr-6  hover:text-color-secondary ease-in-out 200ms "><a href="#">History</a> </li>
+              </ul>
+          </div>
+        </footer>
+    <script> 
+      const navbar = document.querySelector('header');
+
+window.onscroll = () => {
+    if(window.scrollY > 100) {
+        navbar.classList.add('bg-color-primary-dark');
+        navbar.classList.add('border-b');
+        navbar.classList.add('border-color-gray');
+    } else {
+        navbar.classList.remove('bg-color-primary-dark');
+        navbar.classList.remove('border-b');
+        navbar.classList.remove('border-color-gray');
+    }
+}
+
+// Mobile menu
+const hamburger = document.querySelector('#hamburger');
+const menu = document.querySelector('#menu');
+const hLink = document.querySelectorAll('#hLink');
+const faSolid = document.querySelector(".fa-solid");
+
+hamburger.addEventListener("click", () => {
+    menu.classList.toggle('hidden');
+    faSolid.classList.toggle('fa-xmark');
+})
+
+hLink.forEach(link => {
+    link.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+        faSolid.classList.toggle('fa-xmark');
+    })
+})
+
+    </script>
+</body>
+</html>
